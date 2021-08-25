@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="bname" value="firefox"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ToReadDataFromXml.TC_08Test">
+        <methods>
+          <include name="amazon"/>
+          <include name="closingBrowser"/>
+          <include name="readData"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_08Test -->
+      <class name="ToReadDataFromXml.TC_03Test">
+        <methods>
+          <include name="actitime"/>
+          <include name="closingBrowser"/>
+          <include name="readData"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_03Test -->
+      <class name="ToReadDataFromXml.TC_05Test">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="instagram"/>
+          <include name="readData"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_05Test -->
+      <class name="ToReadDataFromXml.TC_04Test">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="readData"/>
+          <include name="youtube"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_04Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="ToReadDataFromXml.TC_07">
+        <methods>
+          <include name="mintra"/>
+          <include name="closingBrowser"/>
+          <include name="readData"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_07 -->
+      <class name="ToReadDataFromXml.TC_03Test">
+        <methods>
+          <include name="actitime"/>
+          <include name="closingBrowser"/>
+          <include name="readData"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_03Test -->
+      <class name="ToReadDataFromXml.TC_05Test">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="instagram"/>
+          <include name="readData"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_05Test -->
+      <class name="ToReadDataFromXml.TC_04Test">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="readData"/>
+          <include name="youtube"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_04Test -->
+      <class name="ToReadDataFromXml.TC_09Test">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="mytri"/>
+          <include name="readData"/>
+        </methods>
+      </class> <!-- ToReadDataFromXml.TC_09Test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
